@@ -73,7 +73,7 @@ Sign up for a free [Twilio](https://www.twilio.com/) account. After verifying yo
 Follow these instructions to [install the Twilio library and test your installation](https://www.twilio.com/docs/libraries/python) using your Account SID, Auth Token, and Twilio phone number.
 
 ## Run on Startup
-Open the Raspberry Pi terminal.  Run the ```crontab -e``` command if you're logged in as a non-root user. Run the ```sudo crontab -``` command if you're logged in as root. Scroll all the way to the bottom of the file below all the comments and add the following line:
+Open the Raspberry Pi terminal.  Run the ```crontab -e``` command if you're logged in as a non-root user. Run the ```sudo crontab -e``` command if you're logged in as root. Scroll all the way to the bottom of the file below all the comments and add the following line:
 ```
 @reboot sleep 60 && python3 /path/to/folder/security.py
 ```
