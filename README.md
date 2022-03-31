@@ -1,4 +1,4 @@
-# Home Security Camera
+# Security Camera
 
 A security camera built using a Raspberry Pi which records a video when motion is detected, uploads the recorded video to Google Drive, and uses Twilio to send a text message to the user informing them that motion was detected in the camera's area.
 
@@ -80,4 +80,4 @@ Open the Raspberry Pi terminal.  Run the ```crontab -e``` command if you're logg
 
 This lets you the run the ```security.py``` script as soon as the Raspberry Pi starts, meaning you don't need to manually run the script by connecting your Raspberry Pi to a monitor, keyboard, & mouse or by SSH'ing into your Raspberry Pi. 
 
-You can take your Raspberry Pi (and Arducam Camera Module and PIR sensor) to a location you want to monitor, plug in the Raspberry Pi, and let the Home Security Camera do its work.
+You can take your Raspberry Pi (and Arducam Camera Module and PIR sensor) to a location you want to monitor, plug in the Raspberry Pi, and let the Security Camera do its work.
